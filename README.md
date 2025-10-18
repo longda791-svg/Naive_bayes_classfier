@@ -4,17 +4,15 @@
 
 朴素贝叶斯分类器原理：[朴素贝叶斯分类器 - 维基百科，自由的百科全书](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
-朴素贝叶斯分类器做垃圾分类：[贝叶斯推断及其互联网应用（二）：过滤垃圾邮件 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_two.html)
-
-Google Drive [data.zip](https://drive.google.com/open?id=15Yi14PBw9P1pb045_aIRa-C3cdP0PKT_) (请先确认网络环境), 
-
+朴素贝叶斯分类器做垃圾分类：[贝叶斯推断及其互联网应用（二）：过滤垃圾邮件 - 阮一峰的网络日志](https://github.com/nado-dev/Naive-Bayes-classifier)
+ 
 OneDrive [data.zip](https://1drv.ms/u/s!ApLylQlrHpBQaIR8C52V1dfX7FE?e=HbfJih)
 
 
 将数据集解压到仓库路径下即可 
 项目结构：
 
-![image](https://user-images.githubusercontent.com/48375763/159438565-3c7741a1-6bb8-404f-abd1-b764813d21c9.png)
+<a href="https://imgchr.com/i/pVL1byd"><img src="https://s21.ax1x.com/2025/10/18/pVL1byd.png" alt="pVL1byd.png" border="0" /></a>
 
 > train_word_dict 文件仅用于保存实验结果，不必预先建立
 
@@ -28,7 +26,7 @@ OneDrive [data.zip](https://1drv.ms/u/s!ApLylQlrHpBQaIR8C52V1dfX7FE?e=HbfJih)
 
 ## 实验数据及结果分析：
 
-![image](https://user-images.githubusercontent.com/48375763/159437202-080e5cb7-84fc-4742-b885-e0f3d58c936e.png)
+<a href="https://imgchr.com/i/pVL1HQH"><img src="https://s21.ax1x.com/2025/10/18/pVL1HQH.png" alt="pVL1HQH.png" border="0" /></a>
 
 部分训练字典如下 
 
@@ -221,8 +219,6 @@ P(ham) = 正常邮件数/邮件总数
 为了计算避免数字过小丢失精度，以下计算均以对数形式进行
 
 用W表示某个词，现在需要计算P(S|W)的值，即在某个词语（W）已经存在的条件下，垃圾邮件（S）的概率有多大。
-
-![img](http://chart.googleapis.com/chart?cht=tx&chl=P(S%7CW)%3D%5Cfrac%7BP(W%7CS)P(S)%7D%7BP(W%7CS)P(S)%2BP(W%7CH)P(H)%7D&chs=70)
 
 又因为对于每个词P(S | H) ，分母与上式一致，所以只需比较分子即可得出结论——大者为更可能的分类结果。
 
