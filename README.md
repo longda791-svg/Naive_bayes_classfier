@@ -21,7 +21,7 @@ OneDrive [data.zip](https://1drv.ms/u/s!ApLylQlrHpBQaIR8C52V1dfX7FE?e=HbfJih)
 
 ## 环境
 
-* python 3.7
+* python 3.9.13
 * package ： jieba、pandas、codecs
 
 ## 实验数据及结果分析：
