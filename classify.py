@@ -24,7 +24,7 @@ def load_stop_word():
     读出停用词列表
     :return: (List)_stop_words
     """
-    with codecs.open("stop", "r") as f:
+    with codecs.open("stop", "r", encoding="utf-8") as f:
         lines = f.readlines()
     _stop_words = [i.strip() for i in lines]
     return _stop_words
