@@ -4,7 +4,7 @@
 
 朴素贝叶斯分类器原理：[朴素贝叶斯分类器 - 维基百科，自由的百科全书](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
-朴素贝叶斯分类器做垃圾分类：[贝叶斯推断及其互联网应用（二）：过滤垃圾邮件 - 阮一峰的网络日志](https://github.com/nado-dev/Naive-Bayes-classifier)
+朴素贝叶斯分类器做垃圾分类：[Naive Bayesian algorithm for spam classification 朴素贝叶斯算法用于垃圾邮件分类](https://github.com/nado-dev/Naive-Bayes-classifier)
  
 OneDrive [data.zip](https://1drv.ms/u/s!ApLylQlrHpBQaIR8C52V1dfX7FE?e=HbfJih)
 
@@ -48,9 +48,9 @@ OneDrive [data.zip](https://1drv.ms/u/s!ApLylQlrHpBQaIR8C52V1dfX7FE?e=HbfJih)
 
 ```
 测试集样本总数 12924
-正确预计个数 11326
-错误预测个数 1598
-预测准确率： 0.8763540699473847
+正确预计个数 12577
+错误预测个数 347
+预测准确率： 0.9731507273290003
 ```
 
 
